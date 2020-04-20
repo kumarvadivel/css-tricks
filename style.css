@@ -181,6 +181,7 @@ form{
 	border: 5px solid #201c29;
 	margin-top:30px;
 	margin-left:-15px;
+	width:50px;
 }
 .cardside{
 	border-radius:16px;
@@ -303,6 +304,7 @@ form{
 	border-radius: 50%;
 	border: 5px solid #201c29;
 	margin-top:30px;
+	width:50px;
 	margin-left:-15px;
 }
 .summa{
