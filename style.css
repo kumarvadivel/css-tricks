@@ -255,25 +255,32 @@ form{
 
 .card1:hover{
 	margin-right:+120px;
+	 transition: margin-right 1s;
 }
 .card2:hover{
 	margin-right:+120px;
+	 transition: margin-right 1s;
 }
 .card3:hover{
 	margin-right:+120px;
+	 transition: margin-right 1s;
 }
 .card4:hover{  
 	margin-right:+120px;
+	 transition: margin-right 1s;
 }
 .card5:hover{  
 	margin-right:+120px;
+	 transition: margin-right 1s;
 
 }
 .card6:hover{  
 	margin-right:+120px;
+	 transition: margin-right 1s;
 }
 .card7:hover{
 	margin-right:+120px;
+	 transition: margin-right 1s;
 }
 .cardd{
 	width:100%;
