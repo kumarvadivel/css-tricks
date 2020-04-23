@@ -11,7 +11,14 @@ $(".add").click(()=>{
       $(".block").show();
       $(".second,.first,.sor").css("opacity","0.3")
 })
-
+function showimg(){
+  if(this.files && this.files[0]){
+        var obj = new FileReader();
+        obj.onload = function(data){
+              return data.target.value;
+        }
+  }
+}
 $(".sub").click((e)=>{
       const cardname = $(".cardname").val();
       const author = $(".authorname").val();
@@ -25,7 +32,7 @@ $(".sub").click((e)=>{
 <div class="front1 font-weight-bold"><p>${cardname}
 </p></div>
 <div class="padd">
-<div class="mt-3 row"><img class="man" accept="image/*" src="${image}">
+<div class="mt-3 row"><img class="man" accept="image/*;capture=camera" src="${image}">
 <div class="mt-3">
   <p class="text-muted font-weight-bold">
 Author<br>
